@@ -43,9 +43,11 @@ const Careers = () => {
           <div className="col-md-3 text-center">
             <img src={x.Image} className="img-fluid w-5" />
             <div className="text-center ">
-              <button className="btns text-center  w-100 py-3 my-2 ">
-                <b> Enter Project Details </b>
-              </button>
+              <Link to="/Payment" className="text-decoration-none text-light">
+                <button className="btns text-center  w-100 py-3 my-2 ">
+                  <b> Avail Now </b>
+                </button>
+              </Link>
             </div>
             <small>{x.title}</small>
             <h6>{x.PriceDetail}</h6>
@@ -105,7 +107,7 @@ const Careers = () => {
                 <h2 style={{ color: "rgba(34, 110, 147, 1)" }}>{x.title} </h2>
                 <div className="text-center ">
                   <Link
-                    to="/Payment"
+                    to="/ApplyInterns"
                     className="text-decoration-none text-light"
                   >
                     {" "}
