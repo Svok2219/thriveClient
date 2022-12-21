@@ -180,7 +180,7 @@ const ContactUS = () => {
           </button>
         </form>
       </div>
-      <div className="text-center mb-5">
+      <div className="text-center ">
         <iframe
           className=""
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d233838.0391923059!2d86.981235!3d23.685992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f71f0ea1022529%3A0xf888f7e7fd11cefe!2sAsansol%2C%20West%20Bengal%2C%20India!5e0!3m2!1sen!2sus!4v1671048155922!5m2!1sen!2sus"
@@ -192,7 +192,8 @@ const ContactUS = () => {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <HeroFooter />
+
+      <HeroFooter className="mt-5" />
     </div>
   );
 };

@@ -177,47 +177,13 @@ const HomePage = () => {
             <div className="text-center">
               <h3 className="">{x.Title}</h3>
               <h5 className="">
-                <u>{x.Name}</u>
+                <a href={x.Link} className="TeamTitle">
+                  <u>{x.Name}</u>
+                </a>
               </h5>
             </div>
           </div>
         ))}
-        {/* <div className="col-md-4 my-3 text-center justify-content-center px-3 py-2 align-items-center">
-          <img
-            src="https://lh6.googleusercontent.com/7Q0YdwD7qqvK0fdSPMsmDSm3tG0u3LZkRaQn-0Z3_7uUACPiUgC58U7lVtC8FC542oBHqoKVVaj8YHWRsh4b959XRVbnQepG_Fs7c9xKYtkJUgQcHBJn9HE-PQm5wArYUWFwfUpgj36H5E2pRgv_3Y1WSG0lhbzwVe4gy9DkU9CbGvbM1NOl8Q=w1280"
-            className="img-fluid w-100"
-          />
-          <div className="text-center">
-            <h3 className="">Chapter Lead AEC</h3>
-            <h5 className="">
-              <u>Abhijit Shaw</u>
-            </h5>
-          </div>
-        </div>
-        <div className="col-md-4 my-3 text-center justify-content-center px-3 py-2 align-items-center">
-          <img
-            src="https://lh6.googleusercontent.com/7Q0YdwD7qqvK0fdSPMsmDSm3tG0u3LZkRaQn-0Z3_7uUACPiUgC58U7lVtC8FC542oBHqoKVVaj8YHWRsh4b959XRVbnQepG_Fs7c9xKYtkJUgQcHBJn9HE-PQm5wArYUWFwfUpgj36H5E2pRgv_3Y1WSG0lhbzwVe4gy9DkU9CbGvbM1NOl8Q=w1280"
-            className="img-fluid w-100"
-          />
-          <div className="text-center">
-            <h3 className="">Chapter Lead AEC</h3>
-            <h5 className="">
-              <u>Abhijit Shaw</u>
-            </h5>
-          </div>
-        </div> */}
-        {/* <div className="col-md-3 my-3 text-center justify-content-center px-3 py-2 align-items-center">
-          <img
-            src="https://lh6.googleusercontent.com/7Q0YdwD7qqvK0fdSPMsmDSm3tG0u3LZkRaQn-0Z3_7uUACPiUgC58U7lVtC8FC542oBHqoKVVaj8YHWRsh4b959XRVbnQepG_Fs7c9xKYtkJUgQcHBJn9HE-PQm5wArYUWFwfUpgj36H5E2pRgv_3Y1WSG0lhbzwVe4gy9DkU9CbGvbM1NOl8Q=w1280"
-            className="img-fluid w-100"
-          />
-          <div className="text-center">
-            <h3 className="">Chapter Lead AEC</h3>
-            <h5 className="">
-              <u>Abhijit Shaw</u>
-            </h5>
-          </div>
-        </div> */}
       </div>
 
       <div className="col-md-12 text-center py-3 my-3 teamHeader text-center">
@@ -231,7 +197,9 @@ const HomePage = () => {
             <div className="text-center">
               <h3 className="">{x.Title}</h3>
               <h5 className="">
-                <u>{x.Name}</u>
+                <a href={x.Link} className="TeamTitle">
+                  <u>{x.Name}</u>
+                </a>
               </h5>
             </div>
           </div>
